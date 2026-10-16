@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Generated data
+data/processed/
+*.parquet
+*.xlsx
+*.csv
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
