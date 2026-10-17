@@ -1,0 +1,19 @@
+services: 
+  python-dev: 
+    image: nishant534/python-dev:latest 
+
+    container_name: superstore-python-dev 
+    
+    working_dir: /app 
+    
+    volumes: 
+      - .:/app 
+    
+    stdin_open: True 
+    
+    tty: True 
+    
+    ports: 
+      - "8888:8888" 
+    
+    restart: "no"
